@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "s3module": {
+      "type": "library",
+      "root": "libs/s3module",
+      "entryFile": "index",
+      "sourceRoot": "libs/s3module/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/s3module/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
